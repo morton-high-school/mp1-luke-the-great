@@ -7,8 +7,8 @@ public class Errors{
     String animal = "duck";
     System.out.println("My name is " + name + " and I am a " + animal + ".");
 
-    int weight = 90;
-    int volume = 8;
+    double weight = 90;
+    double volume = 8;
     double density = weight/volume; // Should be the correct precise value.
 
     System.out.println("I am a heavy " + animal + " because I have a density of " + density + " kilograms per cubic centimeter.");
